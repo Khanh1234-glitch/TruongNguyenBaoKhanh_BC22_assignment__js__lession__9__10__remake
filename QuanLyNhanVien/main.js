@@ -140,10 +140,14 @@ getELe("btnThemNV").addEventListener("click", function () {
 getELe("btnThem").addEventListener("click",function(){
     document.getElementById("btnCapNhat").style.display="none";
     document.getElementById("btnDong").style.display="none";
+    document.getElementById("btnThemNV").style.display="block";
+
 })
 getELe("update").addEventListener("click",function(){
     document.getElementById("btnThemNV").style.display="none";
+    document.getElementById("btnCapNhat").style.display="block";
 })
+
 
 
 
